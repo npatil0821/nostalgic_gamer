@@ -1,0 +1,14 @@
+[29-Nov-2020 19:39:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /home/patiln1/public_html/nostalgic_gamer/employee_area/employee_info.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/patiln1/public_html/nostalgic_gamer/employee_area/employee_info.php on line 17
+[30-Nov-2020 03:39:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function free() on boolean in /home/patiln1/public_html/nostalgic_gamer/employee_area/ord_search_results.php:107
+Stack trace:
+#0 {main}
+  thrown in /home/patiln1/public_html/nostalgic_gamer/employee_area/ord_search_results.php on line 107
+[30-Nov-2020 05:31:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/patiln1/public_html/nostalgic_gamer/employee_area/customer_orders.php:109
+Stack trace:
+#0 {main}
+  thrown in /home/patiln1/public_html/nostalgic_gamer/employee_area/customer_orders.php on line 109
+[30-Nov-2020 06:29:04 UTC] PHP Warning:  require_once(../../db_connect.php): failed to open stream: No such file or directory in /home/patiln1/public_html/nostalgic_gamer/employee_area/search_prod_results.php on line 3
+[30-Nov-2020 06:29:04 UTC] PHP Fatal error:  require_once(): Failed opening required '../../db_connect.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/patiln1/public_html/nostalgic_gamer/employee_area/search_prod_results.php on line 3

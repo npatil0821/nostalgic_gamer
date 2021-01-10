@@ -1,0 +1,7 @@
+initial log in:
+username: db_semester_project
+password: fall2020s2
+
+admin log in:
+username: ng_admin
+pass: nachip0821

@@ -1,0 +1,91 @@
+[29-Nov-2020 00:14:19 UTC] PHP Warning:  require_once(db_connect.php): failed to open stream: No such file or directory in /home/patiln1/public_html/nostalgic_gamer/process/add_to_cart.php on line 3
+[29-Nov-2020 00:14:19 UTC] PHP Fatal error:  require_once(): Failed opening required 'db_connect.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/patiln1/public_html/nostalgic_gamer/process/add_to_cart.php on line 3
+[28-Nov-2020 19:50:56 America/New_York] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 113
+[28-Nov-2020 19:50:56 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patiln1/public_html/nostalgic_gamer/process/place_order.php:105) in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 121
+[28-Nov-2020 20:04:48 America/New_York] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 115
+[28-Nov-2020 20:04:48 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patiln1/public_html/nostalgic_gamer/process/place_order.php:115) in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 133
+[28-Nov-2020 20:08:31 America/New_York] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 112
+[28-Nov-2020 20:08:56 America/New_York] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 112
+[28-Nov-2020 20:09:16 America/New_York] PHP Fatal error:  Uncaught Error: Cannot pass parameter 2 by reference in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php:112
+Stack trace:
+#0 {main}
+  thrown in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 112
+[28-Nov-2020 20:13:28 America/New_York] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 113
+[28-Nov-2020 20:13:56 America/New_York] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 113
+[28-Nov-2020 21:09:37 America/New_York] PHP Warning:  mysqli_result::free(): Couldn't fetch mysqli_result in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 133
+[28-Nov-2020 21:09:37 America/New_York] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 134
+[28-Nov-2020 21:09:37 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patiln1/public_html/nostalgic_gamer/process/place_order.php:133) in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 130
+[28-Nov-2020 21:09:37 America/New_York] PHP Warning:  mysqli_result::free(): Couldn't fetch mysqli_result in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 133
+[28-Nov-2020 21:09:37 America/New_York] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 134
+[28-Nov-2020 21:09:37 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 140
+[28-Nov-2020 21:09:37 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on null in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php:141
+Stack trace:
+#0 {main}
+  thrown in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 141
+[28-Nov-2020 21:10:29 America/New_York] PHP Warning:  mysqli_result::free(): Couldn't fetch mysqli_result in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 133
+[28-Nov-2020 21:10:29 America/New_York] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 134
+[28-Nov-2020 21:10:29 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patiln1/public_html/nostalgic_gamer/process/place_order.php:133) in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 130
+[28-Nov-2020 21:10:29 America/New_York] PHP Warning:  mysqli_result::free(): Couldn't fetch mysqli_result in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 133
+[28-Nov-2020 21:10:29 America/New_York] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 134
+[28-Nov-2020 21:10:29 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 140
+[28-Nov-2020 21:10:29 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on null in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php:141
+Stack trace:
+#0 {main}
+  thrown in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 141
+[28-Nov-2020 21:11:31 America/New_York] PHP Warning:  mysqli_result::free(): Couldn't fetch mysqli_result in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 133
+[28-Nov-2020 21:11:31 America/New_York] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 134
+[28-Nov-2020 21:11:31 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patiln1/public_html/nostalgic_gamer/process/place_order.php:133) in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 130
+[28-Nov-2020 21:11:31 America/New_York] PHP Warning:  mysqli_result::free(): Couldn't fetch mysqli_result in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 133
+[28-Nov-2020 21:11:31 America/New_York] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 134
+[28-Nov-2020 21:11:31 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 140
+[28-Nov-2020 21:11:31 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on null in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php:141
+Stack trace:
+#0 {main}
+  thrown in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 141
+[28-Nov-2020 21:12:40 America/New_York] PHP Warning:  mysqli_result::free(): Couldn't fetch mysqli_result in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 133
+[28-Nov-2020 21:12:40 America/New_York] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 134
+[28-Nov-2020 21:12:40 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patiln1/public_html/nostalgic_gamer/process/place_order.php:133) in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 130
+[28-Nov-2020 21:12:40 America/New_York] PHP Warning:  mysqli_result::free(): Couldn't fetch mysqli_result in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 133
+[28-Nov-2020 21:12:40 America/New_York] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 134
+[28-Nov-2020 21:12:40 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 140
+[28-Nov-2020 21:12:40 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on null in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php:141
+Stack trace:
+#0 {main}
+  thrown in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 141
+[28-Nov-2020 21:15:46 America/New_York] PHP Warning:  mysqli_result::free(): Couldn't fetch mysqli_result in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 134
+[28-Nov-2020 21:15:46 America/New_York] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 135
+[28-Nov-2020 21:15:46 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 142
+[28-Nov-2020 21:15:46 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on null in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php:143
+Stack trace:
+#0 {main}
+  thrown in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 143
+[28-Nov-2020 21:32:00 America/New_York] PHP Warning:  mysqli_result::free(): Couldn't fetch mysqli_result in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 137
+[28-Nov-2020 21:32:00 America/New_York] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 138
+[29-Nov-2020 01:04:11 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php:118
+Stack trace:
+#0 {main}
+  thrown in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 118
+[29-Nov-2020 01:19:22 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php:118
+Stack trace:
+#0 {main}
+  thrown in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 118
+[29-Nov-2020 01:21:17 America/New_York] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 118
+[29-Nov-2020 01:21:17 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patiln1/public_html/nostalgic_gamer/process/place_order.php:118) in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 133
+[29-Nov-2020 01:21:17 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patiln1/public_html/nostalgic_gamer/process/place_order.php:118) in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 133
+[29-Nov-2020 01:21:17 America/New_York] PHP Warning:  mysqli_result::free(): Couldn't fetch mysqli_result in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 136
+[29-Nov-2020 01:21:17 America/New_York] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 137
+[29-Nov-2020 01:21:17 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 143
+[29-Nov-2020 01:21:17 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on null in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php:144
+Stack trace:
+#0 {main}
+  thrown in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 144
+[29-Nov-2020 01:21:34 America/New_York] PHP Warning:  mysqli_stmt::bind_param(): Undefined fieldtype f (parameter 5) in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 118
+[29-Nov-2020 01:21:34 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patiln1/public_html/nostalgic_gamer/process/place_order.php:118) in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 133
+[29-Nov-2020 01:21:34 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patiln1/public_html/nostalgic_gamer/process/place_order.php:118) in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 133
+[29-Nov-2020 01:21:34 America/New_York] PHP Warning:  mysqli_result::free(): Couldn't fetch mysqli_result in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 136
+[29-Nov-2020 01:21:34 America/New_York] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 137
+[29-Nov-2020 01:21:34 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 143
+[29-Nov-2020 01:21:34 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on null in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php:144
+Stack trace:
+#0 {main}
+  thrown in /home/patiln1/public_html/nostalgic_gamer/process/place_order.php on line 144
